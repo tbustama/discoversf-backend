@@ -7,4 +7,5 @@ class User < ApplicationRecord
     has_many :attends
     has_many :restaurants, through: :reservations
     has_many :events, through: :attends
+    has_many :user_conversations
 end
