@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   resources :reservations
-  resources :attends
   resources :events
   resources :restaurants
   resources :conversations, only: [:index, :create]
